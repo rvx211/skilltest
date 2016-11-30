@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "noteinfo",
+    "password": "noteinfo",
+    "database": "noteinfo",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "noteinfo",
+    "password": "noteinfo",
+    "database": "noteinfo",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "noteinfo",
+    "password": "noteinfo",
+    "database": "noteinfo",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
