@@ -45,7 +45,7 @@ router.post('/',function(req, res) {
 });
 
 /* GET single note */
-router.get('/:id/:userid',function(req, res) {
+router.get('/:userid/:id',function(req, res) {
   models.Note.find({
     where: {
       id: req.params.id,
